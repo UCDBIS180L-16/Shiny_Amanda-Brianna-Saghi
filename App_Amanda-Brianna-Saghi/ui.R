@@ -10,16 +10,15 @@
 library(shiny)
 
 
-# Define UI for application that draws a histogram
 shinyUI(fluidPage( #create the overall page
   
   # Application title
   titlePanel("Rice Data"),
   
   # Some helpful information
-  helpText("This application create a density plots to show difference between",
-           "Rice species.  Please use the radio box below to choose a trait",
-           "for plotting"),
+  helpText("This application creates a density plots to show difference between",
+           "Rice phenotypes across different geographical regions.  Please use the radio box below to choose a trait",
+           "for plotting."),
   
   # Sidebar with a radio box to input which trait will be plotted
   sidebarLayout(
