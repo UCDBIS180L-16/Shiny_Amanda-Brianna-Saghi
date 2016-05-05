@@ -16,8 +16,9 @@ shinyUI(fluidPage( #create the overall page
   titlePanel("Rice Data"),
   
   # Some helpful information
-  helpText("This application creates a density plots to show difference between",
-           "Rice phenotypes across different geographical regions.  Please use the radio box below to choose a trait",
+  helpText("This application creates density plots that show the difference between",
+           "Rice phenotypes and their seed volumn, protein content, amylose content, plant height, and" 
+           "flag leaf length across different geographical regions.  Please use the radio box below to choose a trait",
            "for plotting."),
   
   # Sidebar with a radio box to input which trait will be plotted
